@@ -1,4 +1,4 @@
-package com.man-r.myplugin;
+package com.man-r.androidswitch;
  
 import org.apache.cordova.*;
 import org.json.JSONObject;
@@ -9,7 +9,7 @@ import android.app.Activity;
 import android.content.Intent;
 
 
-public class AndroidLocationSwitch extends CordovaPlugin {
+public class AndroidSwitch extends CordovaPlugin {
 	public static final String ACTION_ADD_ENTRY = "switchLocation";
 
 	@Override
