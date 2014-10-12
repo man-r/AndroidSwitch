@@ -4,7 +4,7 @@ var androidswitch = {
 		cordova.exec(
 			successCallback,
 			errorCallback,
-			'AndroidSwitch',
+			'Androidswitch',
 			'switchLocation', // with this action name
             [{}]
 		);
