@@ -9,7 +9,7 @@ import android.app.Activity;
 import android.content.Intent;
 
 
-public class AndroidSwitch extends CordovaPlugin {
+public class Androidswitch extends CordovaPlugin {
 	public static final String ACTION_ADD_ENTRY = "switchLocation";
 
 	@Override
