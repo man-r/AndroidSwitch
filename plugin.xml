@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="com.man-r.androidswitch" version="0.1.0">
+	<name>Androidswitch</name>
+	<description>Sample Phonegap androidswitch Plugin</description>
+	<license>None</license>
+	<keywords>phonegap, androidswitch</keywords>
+
+	<js-module src="www/androidSwitch.js" name="Androidswitch">
+		<clobbers target="window.androidswitch" />
+	</js-module>
+
+	<!-- android -->
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="Androidswitch">
+				<param name="android-package" value="com.man-r.androidswitch.Androidswitch" />
+			</feature>
+		</config-file>
+
+		<source-file src="src/android/AndroidSwitch" target-dir="src/com/man-r/androidswitch" />
+	</platform>
+</plugin>
