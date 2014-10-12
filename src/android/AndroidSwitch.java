@@ -1,4 +1,4 @@
-package com.man-r.androidswitch;
+package com.man_r.androidswitch;
  
 import org.apache.cordova.*;
 import org.json.JSONObject;
@@ -28,7 +28,7 @@ public class AndroidSwitch extends CordovaPlugin {
 		    System.err.println("Exception: " + e.getMessage());
 		    callbackContext.error(e.getMessage());
 		    return false;
-		} 
+		}
 	}
 }
 
