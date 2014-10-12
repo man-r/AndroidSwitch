@@ -5,7 +5,8 @@ var androidswitch = {
 			successCallback,
 			errorCallback,
 			'AndroidSwitch',
-			'switchLocation'
+			'switchLocation', // with this action name
+            [{}]
 		);
 	}
 }

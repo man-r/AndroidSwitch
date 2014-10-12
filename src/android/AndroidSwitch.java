@@ -13,7 +13,7 @@ public class AndroidSwitch extends CordovaPlugin {
 	public static final String ACTION_ADD_ENTRY = "switchLocation";
 
 	@Override
-	public boolean execute(String action, CallbackContext callbackContext) throws JSONException {
+	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		try {
 		    if (ACTION_ADD_ENTRY.equals(action)) { 
 			    Intent switchIntent = new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS);
