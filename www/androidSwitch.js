@@ -1,4 +1,4 @@
-var androidSwitch = {
+var androidswitch = {
 	createEvent: function(successCallback, errorCallback) {
 		cordova.exec(
 			successCallback,
@@ -8,3 +8,5 @@ var androidSwitch = {
 		);
 	}
 }
+
+module.exports = androidswitch;
