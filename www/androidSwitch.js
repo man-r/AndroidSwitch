@@ -1,5 +1,6 @@
 var androidswitch = {
 	createEvent: function(successCallback, errorCallback) {
+		console.log("androidswitch");
 		cordova.exec(
 			successCallback,
 			errorCallback,
