@@ -6,15 +6,15 @@
 	<license>None</license>
 	<keywords>phonegap, androidswitch</keywords>
 
-	<js-module src="www/androidSwitch.js" name="AndroidSwitch">
+	<js-module src="www/androidSwitch.js" name="Androidswitch">
 		<clobbers target="window.androidswitch" />
 	</js-module>
 
 	<!-- android -->
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
-			<feature name="AndroidSwitch">
-				<param name="android-package" value="com.man-r.androidswitch.AndroidSwitch" />
+			<feature name="Androidswitch">
+				<param name="android-package" value="com.man-r.androidswitch.Androidswitch" />
 			</feature>
 		</config-file>
 
