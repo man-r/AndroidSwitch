@@ -16,7 +16,6 @@ public class AndroidSwitch extends CordovaPlugin {
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		try {
 		    if (ACTION_ADD_ENTRY.equals(action)) { 
-			    JSONObject arg_object = args.getJSONObject(0);
 			    Intent switchIntent = new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS);
 	        	this.cordova.getActivity().startActivity(switchIntent);
 			    callbackContext.success();
